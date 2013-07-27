@@ -1,0 +1,25 @@
+<resources>
+
+    <!--
+        Base application theme for API 16+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 16+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 16 theme customizations can go here. -->
+    </style>
+
+    <!-- Custom Fonts-->
+    <style name="PrimeFont">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="SecondaryFont">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#8C8C8C</item>
+    </style>
+
+</resources>
